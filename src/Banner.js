@@ -17,7 +17,7 @@ const Banner = () => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  });
 
   console.log(movie);
 
