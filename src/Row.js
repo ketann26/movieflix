@@ -15,7 +15,7 @@ const Row = ({ title, fetchURL, isLargeRow }) => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  });
 
   return (
     <div className="row">
